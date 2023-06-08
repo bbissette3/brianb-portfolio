@@ -4,6 +4,10 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  background-color: #0a192c;
+}
+
 h1 {
-  font-family: "MontSerrate";
+  font-family: "MontSerrate", sans-serif;
 }
