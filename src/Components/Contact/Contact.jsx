@@ -51,7 +51,7 @@ const Contact = () => {
           onChange={handleChange}
           placeholder="Your name"
           required
-          className="w-full py-2 placeholder-gray-500 border border-gray-300 rounded-md focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 mx-5"
+          className="w-full p-2 placeholder-gray-500 border border-gray-300 rounded-md focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 mx-5"
         />
         <input
           type="email"
@@ -60,7 +60,7 @@ const Contact = () => {
           onChange={handleChange}
           placeholder="Your email"
           required
-          className="w-full py-2 placeholder-gray-500 border border-gray-300 rounded-md focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 mx-5"
+          className="w-full p-2 placeholder-gray-500 border border-gray-300 rounded-md focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 mx-5"
         />
         <textarea
           name="message"
@@ -68,11 +68,11 @@ const Contact = () => {
           onChange={handleChange}
           placeholder="Your message"
           required
-          className="w-full py-2 h-32 placeholder-gray-500 border border-gray-300 rounded-md focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 mx-5"
+          className="w-full p-2 h-32 placeholder-gray-500 border border-gray-300 rounded-md focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 mx-5"
         />
         <button
           type="submit"
-          className="w-full py-2 text-white bg-indigo-600 hover:bg-indigo-700 rounded-md mx-5"
+          className="w-full p-2 text-white bg-indigo-600 hover:bg-indigo-700 rounded-md mx-5"
         >
           SEND
         </button>

@@ -1,3 +1,5 @@
+import { skills } from "./SkillsData";
+
 const Skills = () => {
   return (
     <div className="flex flex-col items-center justify-center">
@@ -7,6 +9,14 @@ const Skills = () => {
           SKILLS
         </h1>
         <hr className="flex-grow border-t-[0.5] border-gray-300 dark:border-gray-600" />
+      </div>
+      <div className="grid grid-cols-4 gap-4">
+        {skills.map((skill) => (
+          <div key={skill.id} className="flex flex-col items-center p-4">
+            <div className="text-4xl">{skill.icon}</div>
+            <p className="mt-2 text-white">{skill.name}</p>
+          </div>
+        ))}
       </div>
     </div>
   );
