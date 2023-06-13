@@ -150,25 +150,25 @@ export const skills = [
       <img src={github} alt="Github" className=" w-10 h-10 sm:w-16 sm:h-16" />
     ),
   },
-  {
-    id: 16,
-    name: "Render",
-    icon: (
-      <img src={render} alt="Render" className=" w-10 h-10 sm:w-16 sm:h-16" />
-    ),
-  },
-  {
-    id: 17,
-    name: "Vercel",
-    icon: (
-      <img src={vercel} alt="Vercel" className=" w-10 h-10 sm:w-16 sm:h-16" />
-    ),
-  },
-  {
-    id: 18,
-    name: "Amazon RDS",
-    icon: <img src={rds} alt="RDS" className=" w-10 h-10 sm:w-16 sm:h-16" />,
-  },
+  // {
+  //   id: 16,
+  //   name: "Render",
+  //   icon: (
+  //     <img src={render} alt="Render" className=" w-10 h-10 sm:w-16 sm:h-16" />
+  //   ),
+  // },
+  // {
+  //   id: 17,
+  //   name: "Vercel",
+  //   icon: (
+  //     <img src={vercel} alt="Vercel" className=" w-10 h-10 sm:w-16 sm:h-16" />
+  //   ),
+  // },
+  // {
+  //   id: 18,
+  //   name: "Amazon RDS",
+  //   icon: <img src={rds} alt="RDS" className=" w-10 h-10 sm:w-16 sm:h-16" />,
+  // },
   {
     id: 19,
     name: "Databases",

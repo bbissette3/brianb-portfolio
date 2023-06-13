@@ -1,6 +1,6 @@
 const ProjectCard = ({ project }) => {
   return (
-    <div className="flex flex-col border-2 bg-custom-lightblue text-[#2e3239] border-[#2e3239] h-full p-4 rounded-md shadow-md">
+    <div className="flex flex-col border-2 bg-custom-lightblue text-[#2e3239] border-[#2e3239] h-full max-w-lg mx-auto p-4 rounded-md shadow-md">
       <img
         src={project.image}
         alt={project.title}
