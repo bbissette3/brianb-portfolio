@@ -10,7 +10,7 @@ function Navbar() {
   };
 
   return (
-    <div className="sticky top-0 bg-[#2e3239] flex justify-around w-full">
+    <div className="sticky top-0 bg-[#2e3239] flex justify-around">
       <NavLink className={getNavLinkClass("/")} to="/">
         About
       </NavLink>

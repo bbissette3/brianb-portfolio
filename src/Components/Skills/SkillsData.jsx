@@ -35,7 +35,7 @@ export const skills = [
   {
     id: 2,
     name: "HTML",
-    icon: <FaHtml5 className="text-red-500" />,
+    icon: <FaHtml5 className="text-orange-500" />,
   },
   {
     id: 3,
@@ -50,7 +50,7 @@ export const skills = [
   {
     id: 5,
     name: "Python",
-    icon: <FaPython className="text-yellow-500" />,
+    icon: <FaPython className="text-blue-500" />,
   },
   {
     id: 6,
@@ -75,17 +75,17 @@ export const skills = [
   {
     id: 10,
     name: "SQLAlchemy",
-    icon: <SiPython className="text-yellow-500" />,
+    icon: <SiPython className="text-blue-500" />,
   },
   {
     id: 11,
     name: "Sequelize",
-    icon: <SiSequelize className="text-blue-500" />,
+    icon: <SiSequelize className="text-purple-500" />,
   },
   {
     id: 12,
     name: "PostgreSQL",
-    icon: <SiPostgresql className="text-blue-500" />,
+    icon: <SiPostgresql className="text-blue-400" />,
   },
   {
     id: 13,
@@ -100,17 +100,17 @@ export const skills = [
   {
     id: 15,
     name: "Tailwind CSS",
-    icon: <SiTailwindcss className="text-blue-500" />,
+    icon: <SiTailwindcss className="text-blue-400" />,
   },
   {
     id: 16,
     name: "Github",
-    icon: <SiGithub className="text-gray-700" />,
+    icon: <SiGithub className="text-black" />,
   },
   {
     id: 17,
     name: "Render",
-    icon: <SiRender className="text-yellow-400" />,
+    icon: <SiRender className="text-yellow-500" />,
   },
   {
     id: 18,

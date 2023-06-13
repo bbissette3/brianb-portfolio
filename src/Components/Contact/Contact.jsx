@@ -43,7 +43,7 @@ const Contact = () => {
         information about me. I am always happy to collaborate with other
         developers. I will respond to your message as soon as I can!
       </p>
-      <form onSubmit={handleSubmit} className="w-full max-w-xl mx-5 space-y-4">
+      <form onSubmit={handleSubmit} className="w-full max-w-xl px-5 space-y-4">
         <input
           type="text"
           name="name"
@@ -51,7 +51,7 @@ const Contact = () => {
           onChange={handleChange}
           placeholder="Your name"
           required
-          className="w-full p-2 placeholder-gray-500 border border-gray-300 rounded-md focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 mx-5"
+          className="w-full p-2 placeholder-gray-500 border border-gray-300 rounded-md focus:outline-none focus:ring-indigo-500 focus:border-indigo-500"
         />
         <input
           type="email"
@@ -60,7 +60,7 @@ const Contact = () => {
           onChange={handleChange}
           placeholder="Your email"
           required
-          className="w-full p-2 placeholder-gray-500 border border-gray-300 rounded-md focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 mx-5"
+          className="w-full p-2 placeholder-gray-500 border border-gray-300 rounded-md focus:outline-none focus:ring-indigo-500 focus:border-indigo-500"
         />
         <textarea
           name="message"
@@ -68,11 +68,11 @@ const Contact = () => {
           onChange={handleChange}
           placeholder="Your message"
           required
-          className="w-full p-2 h-32 placeholder-gray-500 border border-gray-300 rounded-md focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 mx-5"
+          className="w-full p-2 h-32 placeholder-gray-500 border border-gray-300 rounded-md focus:outline-none focus:ring-indigo-500 focus:border-indigo-500"
         />
         <button
           type="submit"
-          className="w-full p-2 text-white bg-indigo-600 hover:bg-indigo-700 rounded-md mx-5"
+          className="w-full p-2 text-white bg-indigo-600 hover:bg-indigo-700 rounded-md"
         >
           SEND
         </button>
