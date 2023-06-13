@@ -1,166 +1,224 @@
-import {
-  FaJs,
-  FaHtml5,
-  FaCss3,
-  FaReact,
-  FaPython,
-  FaNodeJs,
-  FaDatabase,
-  FaServer,
-  FaCodeBranch,
-} from "react-icons/fa";
-import {
-  SiFlask,
-  SiPython,
-  SiSequelize,
-  SiPostgresql,
-  SiSemanticuireact,
-  SiTailwindcss,
-  SiGithub,
-  SiRender,
-  SiVercel,
-  SiAmazonaws,
-  SiRedux,
-  SiJsonwebtokens,
-  SiYarn,
-} from "react-icons/si";
-import { MdExtension } from "react-icons/md";
-import { IoNotificationsOutline } from "react-icons/io5";
+import js from "../Images/js.png";
+import html from "../Images/html.png";
+import css from "../Images/css.png";
+import react from "../Images/react.png";
+import python from "../Images/python.png";
+import flask from "../Images/flask.png";
+import nodejs from "../Images/nodejs.png";
+import sql from "../Images/sql.png";
+import sequelize from "../Images/sequelize.png";
+import postgresql from "../Images/postgresql.png";
+import semanticui from "../Images/semanticui.png";
+import mui from "../Images/mui.png";
+import tailwind from "../Images/tailwind.png";
+import github from "../Images/github.png";
+import render from "../Images/render.png";
+import vercel from "../Images/vercel.png";
+import rds from "../Images/rds.png";
+import database from "../Images/database.png";
+import restapi from "../Images/restapi.png";
+import redux from "../Images/redux.png";
+import jwt from "../Images/jwt.png";
+import formik from "../Images/formik.png";
+import toast from "../Images/toast.png";
 
 export const skills = [
   {
     id: 1,
     name: "JavaScript",
-    icon: <FaJs className="text-yellow-500" />,
+    icon: (
+      <img
+        src={js}
+        alt="JavaScript"
+        className="rounded-full w-10 h-10 sm:w-16 sm:h-16"
+      />
+    ),
   },
   {
     id: 2,
     name: "HTML",
-    icon: <FaHtml5 className="text-orange-500" />,
+    icon: <img src={html} alt="HTML" className=" w-10 h-10 sm:w-16 sm:h-16" />,
   },
   {
     id: 3,
     name: "CSS",
-    icon: <FaCss3 className="text-blue-500" />,
+    icon: <img src={css} alt="CSS" className=" w-10 h-10 sm:w-16 sm:h-16" />,
   },
   {
     id: 4,
     name: "React",
-    icon: <FaReact className="text-blue-400" />,
+    icon: (
+      <img src={react} alt="React" className=" w-10 h-10 sm:w-16 sm:h-16" />
+    ),
   },
   {
     id: 5,
     name: "Python",
-    icon: <FaPython className="text-blue-500" />,
+    icon: (
+      <img src={python} alt="Python" className=" w-10 h-10 sm:w-16 sm:h-16" />
+    ),
   },
   {
     id: 6,
     name: "Flask",
-    icon: <SiFlask className="text-white" />,
+    icon: (
+      <img src={flask} alt="Flask" className=" w-10 h-10 sm:w-16 sm:h-16" />
+    ),
   },
   {
     id: 7,
-    name: "Node.js",
-    icon: <FaNodeJs className="text-green-500" />,
+    name: "Node/Express",
+    icon: (
+      <img
+        src={nodejs}
+        alt="Node/Express"
+        className=" w-10 h-10 sm:w-16 sm:h-16"
+      />
+    ),
   },
   {
     id: 8,
-    name: "Express.js",
-    icon: <FaServer className="text-gray-400" />,
+    name: "SQL",
+    icon: <img src={sql} alt="SQL" className=" w-10 h-10 sm:w-16 sm:h-16" />,
   },
   {
     id: 9,
-    name: "SQL",
-    icon: <FaDatabase className="text-gray-500" />,
+    name: "SQLAlchemy",
+    icon: (
+      <img
+        src={python}
+        alt="SqlAlchemy"
+        className=" w-10 h-10 sm:w-16 sm:h-16"
+      />
+    ),
   },
   {
     id: 10,
-    name: "SQLAlchemy",
-    icon: <SiPython className="text-blue-500" />,
+    name: "Sequelize",
+    icon: (
+      <img
+        src={sequelize}
+        alt="Sequelize"
+        className="bg-transparent w-10 h-10 sm:w-16 sm:h-16"
+      />
+    ),
   },
   {
     id: 11,
-    name: "Sequelize",
-    icon: <SiSequelize className="text-purple-500" />,
+    name: "PostgreSQL",
+    icon: (
+      <img
+        src={postgresql}
+        alt="PostgreSql"
+        className=" w-10 h-10 sm:w-16 sm:h-16"
+      />
+    ),
   },
   {
     id: 12,
-    name: "PostgreSQL",
-    icon: <SiPostgresql className="text-blue-400" />,
+    name: "Semantic UI",
+    icon: (
+      <img
+        src={semanticui}
+        alt="Semantic UI"
+        className="rounded-full w-10 h-10 sm:w-16 sm:h-16"
+      />
+    ),
   },
   {
     id: 13,
-    name: "Semantic UI",
-    icon: <SiSemanticuireact className="text-red-500" />,
+    name: "Material UI",
+    icon: (
+      <img src={mui} alt="Material UI" className=" w-10 h-10 sm:w-16 sm:h-16" />
+    ),
   },
   {
     id: 14,
-    name: "Material UI",
-    icon: <MdExtension className="text-blue-500" />,
+    name: "Tailwind CSS",
+    icon: (
+      <img
+        src={tailwind}
+        alt="Tailwind CSS"
+        className=" w-10 h-10 sm:w-16 sm:h-16"
+      />
+    ),
   },
   {
     id: 15,
-    name: "Tailwind CSS",
-    icon: <SiTailwindcss className="text-blue-400" />,
+    name: "Github",
+    icon: (
+      <img src={github} alt="Github" className=" w-10 h-10 sm:w-16 sm:h-16" />
+    ),
   },
   {
     id: 16,
-    name: "Github",
-    icon: <SiGithub className="text-black" />,
+    name: "Render",
+    icon: (
+      <img src={render} alt="Render" className=" w-10 h-10 sm:w-16 sm:h-16" />
+    ),
   },
   {
     id: 17,
-    name: "Render",
-    icon: <SiRender className="text-yellow-500" />,
+    name: "Vercel",
+    icon: (
+      <img src={vercel} alt="Vercel" className=" w-10 h-10 sm:w-16 sm:h-16" />
+    ),
   },
   {
     id: 18,
-    name: "Vercel",
-    icon: <SiVercel className="text-black" />,
+    name: "Amazon RDS",
+    icon: <img src={rds} alt="RDS" className=" w-10 h-10 sm:w-16 sm:h-16" />,
   },
   {
     id: 19,
-    name: "Amazon RDS",
-    icon: <SiAmazonaws className="text-yellow-500" />,
+    name: "Databases",
+    icon: (
+      <img
+        src={database}
+        alt="Database"
+        className=" w-10 h-10 sm:w-16 sm:h-16"
+      />
+    ),
   },
   {
     id: 20,
-    name: "Databases",
-    icon: <FaDatabase className="text-gray-500" />,
+    name: "RESTful API",
+    icon: (
+      <img
+        src={restapi}
+        alt="Restful API"
+        className=" w-10 h-10 sm:w-16 sm:h-16"
+      />
+    ),
   },
   {
     id: 21,
-    name: "RESTful API",
-    icon: <FaCodeBranch className="text-green-500" />,
+    name: "React Redux",
+    icon: (
+      <img
+        src={redux}
+        alt="React Redux"
+        className=" w-10 h-10 sm:w-16 sm:h-16"
+      />
+    ),
   },
   {
     id: 22,
-    name: "Relational Databases",
-    icon: <FaDatabase className="text-gray-500" />,
+    name: "JWT",
+    icon: <img src={jwt} alt="JWT" className=" w-10 h-10 sm:w-16 sm:h-16" />,
   },
   {
     id: 23,
-    name: "React Redux",
-    icon: <SiRedux className="text-purple-500" />,
+    name: "Formik/Yup",
+    icon: (
+      <img src={formik} alt="Formik" className=" w-10 h-10 sm:w-16 sm:h-16" />
+    ),
   },
   {
     id: 24,
-    name: "JWT",
-    icon: <SiJsonwebtokens className="text-yellow-500" />,
-  },
-  {
-    id: 25,
-    name: "Formik",
-    icon: <FaReact className="text-purple-500" />,
-  },
-  {
-    id: 26,
-    name: "Yup",
-    icon: <SiYarn className="text-purple-500" />,
-  },
-  {
-    id: 27,
     name: "React Toastify",
-    icon: <IoNotificationsOutline className="text-purple-500" />,
+    icon: (
+      <img src={toast} alt="Toast" className=" w-10 h-10 sm:w-16 sm:h-16" />
+    ),
   },
 ];

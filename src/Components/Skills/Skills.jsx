@@ -14,7 +14,7 @@ const Skills = () => {
         {skills.map((skill) => (
           <div key={skill.id} className="flex flex-col items-center p-4">
             <div className="text-4xl">{skill.icon}</div>
-            <p className="mt-2 text-white">{skill.name}</p>
+            <p className="mt-2 text-white ">{skill.name}</p>
           </div>
         ))}
       </div>
