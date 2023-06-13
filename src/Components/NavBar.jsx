@@ -31,7 +31,7 @@ function Navbar() {
       </div>
       <div className="flex pr-5 space-x-4">
         <a
-          href="https://github.com/yourusername"
+          href="https://github.com/bbissette3"
           target="_blank"
           rel="noopener noreferrer"
           className="text-white text-xs sm:text-sm md:text-lg lg:text-4xl transition-transform duration-500 ease-in-out transform hover:rotate-360"
@@ -39,7 +39,7 @@ function Navbar() {
           <FaGithub />
         </a>
         <a
-          href="https://www.linkedin.com/in/yourusername/"
+          href="https://www.linkedin.com/in/brian-bissette/"
           target="_blank"
           rel="noopener noreferrer"
           className="text-white text-xs sm:text-sm md:text-lg lg:text-4xl transition-transform duration-500 ease-in-out transform hover:rotate-360"
