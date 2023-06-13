@@ -7,6 +7,9 @@ export default {
         "custom-blue": "#5f7adb",
         "custom-lightblue": "#a2b2ee",
       },
+      rotate: {
+        360: "360deg",
+      },
     },
   },
   plugins: [],

@@ -53,7 +53,7 @@ const Contact = () => {
         <hr className="flex-grow border-t-[0.5] border-gray-300 dark:border-gray-600" />
       </div>
       <p className="text-center justify-center text-white text-sm sm:text-md md:text-lg my-10 max-w-screen-md mx-5">
-        Reach out if you want to collaborate on a project or need more
+        Send me a message if you want to collaborate on a project or need more
         information about me. I will respond to your message as soon as I can!
       </p>
       <form onSubmit={handleSubmit} className="w-full max-w-xl px-5 space-y-4">
