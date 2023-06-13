@@ -54,8 +54,7 @@ const Contact = () => {
       </div>
       <p className="text-center justify-center text-white text-sm sm:text-md md:text-lg my-10 max-w-screen-md mx-5">
         Reach out if you want to collaborate on a project or need more
-        information about me. I am always happy to collaborate with other
-        developers. I will respond to your message as soon as I can!
+        information about me. I will respond to your message as soon as I can!
       </p>
       <form onSubmit={handleSubmit} className="w-full max-w-xl px-5 space-y-4">
         <input
@@ -86,7 +85,7 @@ const Contact = () => {
         />
         <button
           type="submit"
-          className="w-full p-2 text-white bg-indigo-600 hover:bg-indigo-700 rounded-md"
+          className="w-full p-2 text-white bg-custom-blue hover:bg-custom-lightblue rounded-md"
         >
           SEND
         </button>

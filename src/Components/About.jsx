@@ -10,14 +10,14 @@ const About = () => {
         </h1>
         <hr className="flex-grow border-t-[0.5] border-gray-300 dark:border-gray-600" />
       </div>
-      <p className="text-center justify-center text-white text-sm sm:text-md md:text-lg my-10 max-w-screen-md mx-5">
+      <p className="text-center justify-center text-white text-sm sm:text-md md:text-lg my-5 max-w-screen-md mx-5">
         Hello! I'm Brian Bissette, a Full Stack Software Developer based in
         Katy, Texas. My journey in problem-solving and analytical thinking began
         in the U.S. Navy, where I spent countless hours troubleshooting and
         maintaining complex software systems. This experience sparked my love
         for software development and set me on the path I'm on today.
       </p>
-      <p className="text-center justify-center text-white text-sm sm:text-md md:text-lg my-10 max-w-screen-md mx-5">
+      <p className="text-center justify-center text-white text-sm sm:text-md md:text-lg my-5 max-w-screen-md mx-5">
         After my service, I embraced the challenge of becoming a Full Stack
         Developer. My military background instilled in me a deep sense of
         discipline, adaptability, and a continuous learning mindset. I am
