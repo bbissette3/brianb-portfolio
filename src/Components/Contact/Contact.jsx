@@ -1,5 +1,12 @@
+//react
 import { useState } from "react";
+
+//email js
 import emailjs from "emailjs-com";
+
+//toast
+import { toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -12,21 +19,28 @@ const Contact = () => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
 
-    emailjs
-      .send(
+    try {
+      await emailjs.send(
         import.meta.env.VITE_REACT_APP_EMAILJS_SERVICEID,
         import.meta.env.VITE_REACT_APP_EMAILJS_TEMPLATEID,
         formData,
         import.meta.env.VITE_REACT_APP_EMAILJS_USERID
-      )
-      .then(() => {
-        alert("Message sent");
-        setFormData({ name: "", email: "", message: "" });
-      })
-      .catch((err) => console.error("Failed to send message. Error: ", err));
+      );
+      toast.success("Message sent", {
+        backgroundColor: "green",
+        color: "white",
+      });
+      setFormData({ name: "", email: "", message: "" });
+    } catch (err) {
+      console.error("Failed to send message. Error: ", err);
+      toast.error("Failed to send message", {
+        backgroundColor: "red",
+        color: "white",
+      });
+    }
   };
 
   return (

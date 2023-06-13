@@ -25,6 +25,7 @@ import {
   SiYarn,
 } from "react-icons/si";
 import { MdExtension } from "react-icons/md";
+import { IoNotificationsOutline } from "react-icons/io5";
 
 export const skills = [
   {
@@ -156,5 +157,10 @@ export const skills = [
     id: 26,
     name: "Yup",
     icon: <SiYarn className="text-purple-500" />,
+  },
+  {
+    id: 27,
+    name: "React Toastify",
+    icon: <IoNotificationsOutline className="text-purple-500" />,
   },
 ];
