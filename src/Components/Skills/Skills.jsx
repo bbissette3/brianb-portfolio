@@ -10,7 +10,7 @@ const Skills = () => {
         </h1>
         <hr className="flex-grow border-t-[0.5] border-gray-300 dark:border-gray-600" />
       </div>
-      <div className="grid grid-cols-4 gap-4">
+      <div className="grid grid-cols-4 gap-4 px-5">
         {skills.map((skill) => (
           <div key={skill.id} className="flex flex-col items-center p-4">
             <div className="text-4xl">{skill.icon}</div>
