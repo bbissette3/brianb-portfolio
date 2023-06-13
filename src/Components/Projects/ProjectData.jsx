@@ -1,3 +1,9 @@
+import studysphere from "../../Components/Images/studysphere.png";
+import petadopter from "../../Components/Images/petadopter.png";
+import botdecimation from "../../Components/Images/botdecimation.png";
+import swolldiers from "../../Components/Images/swolldiers.png";
+import music from "../../Components/Images/music.png";
+
 export const projects = [
   {
     id: 1,
@@ -26,6 +32,7 @@ export const projects = [
       },
     ],
     link: "https://study-sphere.onrender.com",
+    image: studysphere,
   },
   {
     id: 2,
@@ -47,6 +54,7 @@ export const projects = [
       },
     ],
     link: "https://www.loom.com/share/9eb489ed66ac4521a1db8b8c73b96210",
+    image: petadopter,
   },
   {
     id: 3,
@@ -61,6 +69,7 @@ export const projects = [
       },
     ],
     link: "https://www.loom.com/share/1722c223289b49579027c9fb5f48a383",
+    image: botdecimation,
   },
   {
     id: 4,
@@ -75,6 +84,7 @@ export const projects = [
       },
     ],
     link: null,
+    image: swolldiers,
   },
   {
     id: 5,
@@ -89,5 +99,6 @@ export const projects = [
       },
     ],
     link: null,
+    image: music,
   },
 ];

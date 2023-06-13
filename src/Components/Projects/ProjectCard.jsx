@@ -1,6 +1,11 @@
 const ProjectCard = ({ project }) => {
   return (
     <div className="flex flex-col border-2 bg-custom-lightblue text-[#2e3239] border-[#2e3239] h-full p-4 rounded-md shadow-md">
+      <img
+        src={project.image}
+        alt={project.title}
+        className="mb-2 rounded-md h-40 object-fit"
+      />
       <h2 className="font-bold text-xl mb-2">{project.title}</h2>
       <p className="text-sm mb-2 text-[#2e3239]">{project.description}</p>
       <ul className="flex flex-wrap flex-shrink-0 mb-2">
