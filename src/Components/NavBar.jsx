@@ -47,7 +47,7 @@ function Navbar() {
           <FaLinkedin />
         </a>
         <a
-          href="https://drive.google.com/file/d/1Pzg4y6Z4V1CMoOd4FPhnr2GWKZVS3AV4/view?usp=drive_link"
+          href="https://drive.google.com/file/d/1ibB3xN-kRMyqsD6CFkvFUKqwEVBnB35K/view?usp=sharing"
           target="_blank"
           rel="noopener noreferrer"
           download
